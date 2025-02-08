@@ -123,7 +123,7 @@ verificarNumerosPrimos();
  */
 
 
-function calcularAreaPoligono(poligono){
+function calcularAreaPerimetroPoligono(poligono){
     poligono = parseInt(prompt("Escriba 1 si el poligno es un Triangulo, 2 si es un Cuadrado o 3 si es un Rectángulo"));
 
     if(poligono === 1){
@@ -148,7 +148,7 @@ function calcularAreaPoligono(poligono){
     }
 }
 
-let poligono = calcularAreaPoligono();
+let poligono = calcularAreaPerimetroPoligono();
 
 console.log(poligono);
 

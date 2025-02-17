@@ -163,3 +163,7 @@ console.log(poligono);
  *   imagen de 1920*1080px.
  */
 
+function calcularAspectRatio(){
+
+}
+
